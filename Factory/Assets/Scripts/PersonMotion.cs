@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MeteorMotion : MonoBehaviour
+public class PersonMotion : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] private Vector3 Movement;

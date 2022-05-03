@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Arcanum
 {
-    public class BlackHoleMaker : MonoBehaviour, IFactorySpell
+    public class PersonMaker : MonoBehaviour, IFactorySpell
     {
         [SerializeField] private GameObject prefab;
 
