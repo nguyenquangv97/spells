@@ -322,6 +322,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 0
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
@@ -399,8 +400,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpellFactory
       objectReference: {fileID: 0}
+    - target: {fileID: 2036623790823496155, guid: 09b0380f9f6cf44018f07370fd8ab3ac,
+        type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 1260597861999642, guid: d6d06c887a1aae94f8c6e8cc2c0c557b,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09b0380f9f6cf44018f07370fd8ab3ac, type: 3}
+--- !u!1 &1331175228 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2036623790823495974, guid: 09b0380f9f6cf44018f07370fd8ab3ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 1001162065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1331175234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331175228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08381bb4b15eef44fbc48cbfa4335d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1260597861999642, guid: d6d06c887a1aae94f8c6e8cc2c0c557b, type: 3}
 --- !u!850595691 &1366495866
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -505,7 +531,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
