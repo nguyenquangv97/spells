@@ -16,7 +16,7 @@ namespace Arcanum
             {
                 var Person = this.GetComponent<PersonMaker>().Make();
                 Person.transform.position = this.transform.position;
-                Destroy(Person, 10);
+                Destroy(Person, 5);
             }
             else if (Spells.Fireball == type)
             {
