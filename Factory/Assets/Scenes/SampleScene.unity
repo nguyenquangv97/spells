@@ -400,6 +400,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpellFactory
       objectReference: {fileID: 0}
+    - target: {fileID: 2036623790823496152, guid: 09b0380f9f6cf44018f07370fd8ab3ac,
+        type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 4522490964223384063, guid: a44c479d92116af4da1b82007056cf02,
+        type: 3}
     - target: {fileID: 2036623790823496155, guid: 09b0380f9f6cf44018f07370fd8ab3ac,
         type: 3}
       propertyPath: prefab
@@ -408,6 +414,7 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents:
     - {fileID: 5589530645480510914, guid: 09b0380f9f6cf44018f07370fd8ab3ac, type: 3}
+    - {fileID: 2036623790823496152, guid: 09b0380f9f6cf44018f07370fd8ab3ac, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 09b0380f9f6cf44018f07370fd8ab3ac, type: 3}
 --- !u!1 &1331175228 stripped
 GameObject:
@@ -415,6 +422,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1001162065}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1331175229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331175228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff63a4316a277c948b4a496aab965bc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4522490964223384063, guid: a44c479d92116af4da1b82007056cf02, type: 3}
 --- !u!114 &1331175234
 MonoBehaviour:
   m_ObjectHideFlags: 0

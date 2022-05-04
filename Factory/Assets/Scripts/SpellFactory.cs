@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Arcanum
 {
-    public enum Spells { Fireball, Person, Meteor}
+    public enum Spells { Fireball, Person, ColorChanger}
 
     [RequireComponent(typeof(PersonMaker))]
     [RequireComponent(typeof(FireballMaker))]
@@ -23,10 +23,10 @@ namespace Arcanum
                 var fireball = this.GetComponent<FireballMaker>().Make();
                 fireball.transform.position = this.transform.position;
             }
-            else if (Spells.Meteor == type)
+            else if (Spells.ColorChanger == type)
             {
-                var fireball = this.GetComponent<MeteorMaker>().Make();
-                fireball.transform.position = this.transform.position;
+                var colorChanger = this.GetComponent<ColorChangerMaker>().Make();
+                colorChanger.transform.position = this.transform.position;
             }
         }
 
@@ -43,7 +43,7 @@ namespace Arcanum
             }
             else if (Input.GetButtonDown("Fire2"))
             {
-                this.BuildSpell(Spells.Meteor);
+                this.BuildSpell(Spells.ColorChanger);
             }
          }
 
